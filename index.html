@@ -652,7 +652,7 @@
         <h2 class="section__title">La Vidéo de Lancement</h2>
         <p class="section__subtitle">Découvre l'univers Niglo Ni Vis — et soutiens la collecte.</p>
         <div class="video-wrapper" id="video-container">
-            <video id="main-video" preload="metadata" poster="images/logo-mode-niglo.png">
+            <video id="main-video" preload="metadata" poster="images/banniere.png">
                 <source src="images/video-lancement-ulule.mp4" type="video/mp4">
             </video>
             <button class="play-btn" id="play-btn" onclick="document.getElementById('main-video').controls=true; document.getElementById('main-video').play(); document.getElementById('play-btn').style.display='none';">
@@ -660,6 +660,22 @@
             </button>
         </div>
         <a href="#ulule" class="btn btn--yellow">Soutenir sur Ulule</a>
+    </section>
+
+    <!-- CROSS-PROMO NIGLOMODE -->
+    <section style="background:#0a0a0a; border-top:1px solid #1a1a1a; border-bottom:1px solid #1a1a1a; padding:2rem 0;">
+        <div class="container" style="display:flex; align-items:center; justify-content:center; gap:2rem; flex-wrap:wrap;">
+            <img src="images/logo-mode-niglo.png" alt="NigloMode" style="height:52px; width:auto; opacity:0.9;">
+            <div style="text-align:left;">
+                <p style="color:#aaa; font-size:0.85rem; margin-bottom:0.3rem;">Le projet derrière la marque</p>
+                <p style="color:#fff; font-weight:700; font-size:1rem; margin-bottom:0.5rem;">Rejoins la communauté NIGLOMODE —<br>troc, entraide &amp; circuits courts.</p>
+                <a href="https://niglo-mode.vercel.app" target="_blank" rel="noopener"
+                   style="display:inline-block; background:#ffd100; color:#0d0d0d; font-weight:700; font-size:0.85rem; padding:0.45rem 1.1rem; border-radius:4px; letter-spacing:0.5px; transition:opacity 0.2s;"
+                   onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">
+                    Découvrir NigloMode →
+                </a>
+            </div>
+        </div>
     </section>
 
     <!-- ONGLETS : HISTOIRE + MODE NIGLO -->
@@ -1373,6 +1389,11 @@
                 <h4 class="footer__title">Légal</h4>
                 <p><a href="#">Mentions légales</a></p>
                 <p><a href="#">CGV</a></p>
+            </div>
+            <div>
+                <h4 class="footer__title">Univers Niglo</h4>
+                <p><a href="https://niglo-mode.vercel.app" target="_blank" rel="noopener">🌿 NigloMode</a></p>
+                <p style="color:#555; font-size:0.85rem; margin-top:0.4rem;">Troc · Entraide · Circuits courts</p>
             </div>
         </div>
         <p class="footer__copyright">© 2025 Niglo Ni Vis – Sans vice, Ni Tourne-Vis. 🦔</p>
