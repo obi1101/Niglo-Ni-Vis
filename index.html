@@ -112,11 +112,6 @@
 
         /* === BARRE ANNONCE ULULE === */
         .annonce-bar {
-            position: fixed;
-            top: 67px;
-            left: 0;
-            width: 100%;
-            z-index: 999;
             background: #ffffff;
             border-bottom: 4px solid var(--yellow);
             padding: 1.1rem 2rem;
@@ -124,13 +119,17 @@
             font-size: 1.05rem;
             color: #111111;
             line-height: 1.8;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
         }
         .annonce-bar strong { color: #c47f00; font-weight: 700; }
         .annonce-bar .annonce-icon { font-size: 1.3rem; margin-right: 0.4rem; }
 
         @media (max-width: 767px) {
             .annonce-bar {
+                position: fixed;
+                top: 67px;
+                left: 0;
+                width: 100%;
+                z-index: 999;
                 font-size: 0.68rem;
                 padding: 0.3rem 0.8rem;
                 line-height: 1.3;
@@ -140,7 +139,7 @@
 
         /* === HERO === */
         .hero {
-            margin-top: 130px;
+            margin-top: 67px;
             padding: 3rem 1.5rem 4rem;
             text-align: center;
             background: var(--black);
