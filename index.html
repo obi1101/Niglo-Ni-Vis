@@ -110,9 +110,27 @@
         }
         .nav__link:hover { color: var(--yellow); }
 
+        /* === BARRE ANNONCE ULULE === */
+        .annonce-bar {
+            position: fixed;
+            top: 67px;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+            background: linear-gradient(90deg, #1a1000, #2a1f00, #1a1000);
+            border-bottom: 2px solid var(--yellow);
+            padding: 0.6rem 1.5rem;
+            text-align: center;
+            font-size: 0.82rem;
+            color: #f0d87a;
+            line-height: 1.5;
+        }
+        .annonce-bar strong { color: var(--yellow); font-weight: 700; }
+        .annonce-bar .annonce-icon { font-size: 1rem; margin-right: 0.3rem; }
+
         /* === HERO === */
         .hero {
-            margin-top: 67px;
+            margin-top: 117px;
             padding: 3rem 1.5rem 4rem;
             text-align: center;
             background: var(--black);
@@ -616,6 +634,12 @@
         </ul>
     </nav>
 </header>
+
+<div class="annonce-bar">
+    <span class="annonce-icon">🦔</span>
+    <strong>Transparence Niglo :</strong> Les tarifs sur Ulule sont volontairement majorés — chaque commande contribue directement à la construction de l'<strong>Univers Niglo</strong> (vêtements, plateforme NigloMode &amp; plus).
+    À l'ouverture officielle du shop, <strong>les prix seront revus à la baisse.</strong>
+</div>
 
 <main>
 
